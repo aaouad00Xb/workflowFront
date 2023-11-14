@@ -1,0 +1,100 @@
+<div class="card">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <div class="row" class="validation">
+      <label for="">Business  </label> 
+  </div>
+    <table class="table" id="customers">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Business Name</th>
+          <th>Business Address</th>
+          <th>Contact Person</th>
+          <th>phone</th>
+          <th>Email</th>
+          <th>budget Total (MD)</th>
+          <th>action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let business of businesses;let i = index" [ngClass]="selectedBuisness.businessID==business.businessID?'selected':'' " (click)="selectBuisness(i)">
+          <td>{{ i+1}}</td>
+          <td>{{ business.businessName }}</td>
+          <td>{{ business.businessAddress }}</td>
+          <td>{{ business.contactPerson }}</td>
+          <td>{{ business.contactPhone }}</td>
+          <td>{{ business.contactEmail }}</td>
+          <td>{{ business.budgetTotal }}</td>
+          <td><i class="bi bi-eye-fill"></i></td>
+        </tr>     
+      </tbody>
+    </table>
+    
+    <div class="pagination">
+      <button (click)="prevPage()" [disabled]="currentPage === 1">Avant</button>
+      <span>{{currentPage}} / {{totalPages}}</span>
+      <button (click)="nextPage()" [disabled]="currentPage === totalPages">suivant</button>
+    </div>
+    
+    <div class="row" class="validation">
+      <label for="">Sous-Traitance </label> 
+  </div>
+    <table class="table" id="customers">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>libelle</th>
+          <th>date Sous-traitence          </th>
+          <th>Titulaire</th>
+          <th>ICE</th>
+          <th>Maitre d'ouvrage (MO)</th>
+          <th>Montant (MD)</th>
+          <th>action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let business of selectedBuisness.sousTraitances;let i = index" (click)="getSoutraitents(business.id)">
+          <td>{{ i+1}}</td>
+          <td>{{ business.libelle }}</td>
+          <td>{{ business.dateSoutraitence }}</td>
+          <td>{{ business.titulaire?.name }}</td>
+          <td>{{ business.titulaire?.ice }}</td>
+          <td>{{ business.mo}}</td>
+          <td>{{ business.montant}}</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <div class="row" class="validation">
+      <label for="">Facture </label> 
+  </div>
+    <table class="table" id="customers">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>factureNumber</th>
+          <th>factureDate</th>
+          <th>totalAmount</th>
+          <th>currentStep</th>
+  
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let f of selectedFactures;let i = index">
+          <td>{{ i+1}}</td>
+          <td>{{ f.factureNumber }}</td>
+          <td>{{ f.factureDate }}</td>
+          <td>{{ f.totalAmount }}</td>
+          <td>{{ f.currentStep?.stepName}}</td>
+         
+     
+        </tr>
+      </tbody>
+    </table>
+    
+  
+  </div>
+</div>

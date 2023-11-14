@@ -1,0 +1,383 @@
+{
+  "id_project": 1721,
+  "ref_project": "PROJ-003",
+  "statut": "En cours d’exécution",
+  "ref_Convention_nbr": "CONV-003",
+  "ref_Convention_type": "Type B",
+  "ref_Convention_annee": 2023,
+  "type_project": "Non structurel",
+  "intitule": "Project B",
+  "delai_Conventionnne": 12,
+  "cout_total_conventione": 10.0,
+  "date_signatre_convention": "2023-07-11T11:16:31.805+00:00",
+  "date": null,
+  "typeRisque": "innondation",
+  "consistance": "Consistency 1",
+  "categorie_project": "Category 1",
+  "convention_file": "Convention File 1",
+  "porteur": "H2M technologie",
+  "provinces": [],
+  "partenaires": [
+    {
+      "id": 1724,
+      "qualite": "Qualité A",
+      "contribution_financiere": null,
+      "description": null,
+      "nom_prenom": null,
+      "email": null,
+      "tel": null,
+      "address_siege": null,
+      "statut_institution": null,
+      "institution": null,
+      "type_institution": null,
+       "contribution_annee": [
+        {
+          "id": 1791,
+          "annee": null,
+          "montant": 123.0,
+          "echeance": null
+        },
+        {
+          "id": 1792,
+          "annee": null,
+          "montant": 1234.0,
+          "echeance": null
+        },
+        {
+          "id": 1793,
+          "annee": null,
+          "montant": 1234.0,
+          "echeance": null
+        }
+      ],
+      "region": null,
+      "province": null,
+      "commune": null,
+      "code_regio": null
+    },
+    {
+      "id": 1725,
+      "qualite": "Qualité B",
+      "contribution_financiere": null,
+      "description": null,
+      "nom_prenom": null,
+      "email": null,
+      "tel": null,
+      "address_siege": null,
+      "statut_institution": null,
+      "institution": null,
+      "type_institution": null,
+      "contribution_annee": [],
+      "region": null,
+      "province": null,
+      "commune": null,
+      "code_regio": null
+    }
+  ],
+  "prestations": [
+    {
+      "id": 1812,
+      "voie_passation": "Appel d’Offres",
+      "nom": "pero",
+      "ref_marche": "we",
+      "ref_commande": null,
+      "delais_realisation_prevu": 23,
+      "date_lencement_ao": "2023-08-03T00:00:00.000+00:00",
+      "date_ouverture_plis": "2023-08-03T00:00:00.000+00:00",
+      "dateCommencement": "2023-08-13T00:00:00.000+00:00",
+      "date_approbation": "2023-08-12T00:00:00.000+00:00",
+      "dateAdjudication": "2023-08-13T00:00:00.000+00:00",
+      "dateVisa": "2023-08-20T00:00:00.000+00:00",
+      "nomPrestataire": null,
+      "etatEngagement": "Marché en cours d’exécution",
+      "nombre_soumissionaires": 123,
+      "nom_titulaire": "123",
+      "montant_engage": 123.0,
+      "avancement_physique": null,
+      "montant_paye_au_prestataire": null,
+      "date_achevement": null,
+      "date_reception_prevu": null,
+      "resille": null,
+      "description_avancement": null,
+      "dernier_decompt": null,
+      "retenues_non_encore_payees": null
+    },
+    {
+      "id": 1818,
+      "voie_passation": "Appel d’Offres",
+      "nom": "12",
+      "ref_marche": "123",
+      "ref_commande": null,
+      "delais_realisation_prevu": 122,
+      "date_lencement_ao": "2023-08-12T00:00:00.000+00:00",
+      "date_ouverture_plis": "2023-08-19T00:00:00.000+00:00",
+      "dateCommencement": "2023-08-19T00:00:00.000+00:00",
+      "date_approbation": "2023-08-03T00:00:00.000+00:00",
+      "dateAdjudication": "2023-08-04T00:00:00.000+00:00",
+      "dateVisa": "2023-08-20T00:00:00.000+00:00",
+      "nomPrestataire": null,
+      "etatEngagement": "Marché en cours d’exécution",
+      "nombre_soumissionaires": 123,
+      "nom_titulaire": "23",
+      "montant_engage": 12.0,
+      "avancement_physique": 24.0,
+      "montant_paye_au_prestataire": 123.0,
+      "date_achevement": null,
+      "date_reception_prevu": null,
+      "resille": "Oui",
+      "description_avancement": "sdfghjk",
+      "dernier_decompt": null,
+      "retenues_non_encore_payees": null
+    }
+  ],
+  "problemes": [
+    {
+      "id": 1728,
+      "contraintes_problemes": "Contraintes A",
+      "mesures_pries": "fefw",
+      "mesure_prevue": "efwfwef"
+    },
+    {
+      "id": 1729,
+      "contraintes_problemes": "Contraintes B",
+      "mesures_pries": "fwefwef",
+      "mesure_prevue": "fwefwefwe"
+    },
+    {
+      "id": 1832,
+      "contraintes_problemes": "cew",
+      "mesures_pries": "wer",
+      "mesure_prevue": "etrtr"
+    }
+  ],
+  "donnee_envirenmentales": null,
+  "sites": [
+    {
+      "id": 1730,
+      "name": "Site A",
+      "latitude": null,
+      "longitude": null,
+      "description": null,
+      "document": null,
+      "geom": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.81860099,
+              34.01870034
+            ],
+            [
+              -6.81940464,
+              34.01947746
+            ],
+            [
+              -6.82422654,
+              34.01714607
+            ],
+            [
+              -6.81940464,
+              34.01503665
+            ],
+            [
+              -6.82061011,
+              34.01092869
+            ],
+            [
+              -6.82596779,
+              34.0067095
+            ],
+            [
+              -6.82744115,
+              34.00126866
+            ],
+            [
+              -6.82302107,
+              34.00171282
+            ],
+            [
+              -6.81538638,
+              34.00593226
+            ],
+            [
+              -6.81230572,
+              34.00537708
+            ],
+            [
+              -6.80520679,
+              34.00693157
+            ],
+            [
+              -6.79663451,
+              34.01048458
+            ],
+            [
+              -6.7911429,
+              34.01636892
+            ],
+            [
+              -6.78966953,
+              34.01747913
+            ],
+            [
+              -6.79783999,
+              34.02380703
+            ],
+            [
+              -6.80279584,
+              34.02147575
+            ],
+            [
+              -6.80507285,
+              34.0196995
+            ],
+            [
+              -6.81685974,
+              34.01792321
+            ],
+            [
+              -6.81860099,
+              34.01870034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": 1731,
+      "name": "Site B",
+      "latitude": null,
+      "longitude": null,
+      "description": null,
+      "document": null,
+      "geom": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.86204047,
+              33.99377773
+            ],
+            [
+              -6.86332851,
+              33.99459242
+            ],
+            [
+              -6.86504147,
+              33.99218135
+            ],
+            [
+              -6.86490868,
+              33.99193914
+            ],
+            [
+              -6.86436425,
+              33.99193914
+            ],
+            [
+              -6.86286375,
+              33.99207125
+            ],
+            [
+              -6.86204047,
+              33.99377773
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "avenant": [
+    {
+      "id": 1799,
+      "numero": 1234.0,
+      "date_signature": "2023-07-14",
+      "document": "images/8275948211017200Rib_230330_161901.pdf_-1644335660.pdf",
+      "document_path1": null,
+      "object": "Modification de la consistance"
+    }
+  ],
+  "bilan_mesures_envirenementales_socials": [
+    {
+      "id": 1833,
+      "impact_negatif": "2eddasd",
+      "mesure_attenuation_prise": "adsdd",
+      "efficacite_mesure": "Efficace"
+    }
+  ],
+  "mesure_envirenmentales_socials": [
+    {
+      "id": 1834,
+      "phase": "étude",
+      "mesure_env_sc_prevu": "23",
+      "taux_realisation": 1.0,
+      "observation": "csdv",
+      "evaluation_impact": 21.0
+    },
+    {
+      "id": 1835,
+      "phase": "étude",
+      "mesure_env_sc_prevu": "23",
+      "taux_realisation": 12.0,
+      "observation": "dsv",
+      "evaluation_impact": 22.0
+    }
+  ],
+  "doleance": [
+    {
+      "id": 1838,
+      "numero_doleance": "qw",
+      "objet": "123",
+      "statut": "qwerty",
+      "mesures_prises": "1234",
+      "canal_reception": "1234",
+      "date_reception": "2023-08-06T00:00:00.000+00:00"
+    }
+  ],
+  "benificiaire": {
+    "id": 1839,
+    "numero_bn_direct": 12,
+    "numero_bn_indirect": 12.0,
+    "numero_bn_indirect_femme": 21.0,
+    "numero_bn_direct_femme": 21,
+    "hibernateLazyInitializer": {}
+  },
+  "avancement_histories": [
+    {
+      "id": 1817,
+      "date": "2023-08-01T13:08:18.732",
+      "avancement_history": 0.010666666666666666
+    },
+    {
+      "id": 1831,
+      "date": "2023-08-01T14:15:19.081",
+      "avancement_history": 0.021333333333333333
+    }
+  ],
+  "communes": [
+    {
+      "gid": 574,
+      "typeCommu": "M",
+      "codeCommu": "04.421.00.01.",
+      "nomCommun": "Rabat",
+      "nomComm1": "الرباط",
+      "code_provi": {
+        "gid": 421,
+        "objectid": 28,
+        "codeProvi": "421",
+        "nomProvin": "RABAT",
+        "hibernateLazyInitializer": {}
+      },
+      "codeRegio": "04.",
+      "codeComO": null,
+      "nomComOl": "RABAT"
+    }
+  ],
+  "regions": [
+    {
+      "gid": 10,
+      "nomRegion": "RABAT-SALE-KENITRA",
+      "hibernateLazyInitializer": {}
+    }
+  ]
+}

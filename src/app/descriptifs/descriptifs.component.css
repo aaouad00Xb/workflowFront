@@ -1,0 +1,31 @@
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: none;
+    color: gray;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .selected{
+    background-color: orange;
+  }
+
+  .validation{
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 0px 10px;
+    background-color: rgba(196, 176, 60, 0.61);
+    /* margin-top: -10px; */
+    }
